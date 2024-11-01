@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body class="body">
+   Islamic Scholar your queries will be answered according to quran and sunnah.</br></br>
+
+    <form onsubmit="getResponseFromLLM(); return false;">
+      <div>
+        <label for="userQuery">User Query</label>
+        <input type="text" name="userQuery" id="userQuery" class="userQuery" />
+      </div>
+    </br></br>
+      <button type="submit">Get Response</button>
+    </form>
+   
+    <div class="llm"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
